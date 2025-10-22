@@ -164,6 +164,7 @@ def sp_registrar_toma():
     cnx = cur = None
     
     try:
+        
         cnx = conectar()
         cur = cnx.cursor()
         

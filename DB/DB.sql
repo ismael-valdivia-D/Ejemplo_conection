@@ -248,6 +248,7 @@ INSERT INTO usuarios (nombre_usuario, password_usuario, id_persona, tipo_usuario
 ('juan_p', 'juanito55', 2, 1),
 ('maria_soto', 'tutor_soto', 3, 2);
 
+
 -- MEDICAMENTOS
 INSERT INTO medicamentos (nombre_medicamento, frecuencia_tratamiento, duracion_tratamiento, usuario_id, id_tratamiento) VALUES
 ('Losartan 50mg', 'Cada 12 horas', 'Indefinida', 1, 1),

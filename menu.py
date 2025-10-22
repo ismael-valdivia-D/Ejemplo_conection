@@ -238,6 +238,7 @@ def menu():
         print("5) Restaurar por ID (opcional)")
         print("0) Salir")
 
+
         # Solicita la opción al usuario
         opcion = input("Selecciona una opción: ").strip()
 

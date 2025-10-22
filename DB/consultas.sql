@@ -149,6 +149,7 @@ JOIN personas P ON U.id_persona = P.id_persona
 JOIN estado_pastillero EP ON PA.id_estado = EP.id_estado
 WHERE PA.deleted = 0;
 
+
 -- 8. Resumen de cumplimiento de tratamientos por usuario
 SELECT 
     P.nombre AS Paciente,

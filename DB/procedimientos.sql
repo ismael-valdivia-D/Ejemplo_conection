@@ -127,6 +127,7 @@ BEGIN
     ORDER BY a.hora;
 END //
 
+
 CREATE PROCEDURE sp_registrar_toma(
     IN p_medicamento_id INT,
     IN p_usuario_id INT,
