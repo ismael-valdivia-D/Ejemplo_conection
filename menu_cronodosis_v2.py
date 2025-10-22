@@ -162,6 +162,7 @@ def sp_programar_alarma():
 def sp_registrar_toma():
     """Registra la toma de un medicamento"""
     cnx = cur = None
+    
     try:
         cnx = conectar()
         cur = cnx.cursor()
